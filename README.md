@@ -23,7 +23,7 @@ The PFA algorithm of Python version is based on *Numpy* package, so before using
      * sample_num: the number of sample
      * xList: store input data, the length of xList is k. the format of xList[i] ($i\in [0, k-1]$): a $m\times n$ matrix, which m denote gene name and n denote sample name.
   * Output description
-     * Y: the result of output. $Y\times Y^{T} = 1$. a $d_num\times sample_num$ matrix.
+     * Y: the result of output. $Y\times Y^{T} = 1$. a $d_{num}\times sample_{num}$ matrix.
      * w: the weight of every sample. $w >= 0$.
      * L_list:a list, the length of it is k. the format of L_list[i] ($i\in [0, k-1]$):a $d_m\times xList[i].shape[0]$ matrix.
  After clone this repository, you can simulate following example to use this algorithm:
