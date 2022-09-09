@@ -41,6 +41,7 @@ The PFA algorithm of Python version is based on *Numpy* package, so before using
  xList[0] = np.random.random((36, sample_num))
  xList[1] = np.random.random((40, sample_num))
  xList[2] = np.random.random((50, sample_num))
+ d_num = min(xList[0].shape[0], xList[1].shape[0], xList[2].shape[0])
  
  Y, w, L_list = Algorithm_4(xList, sample_num, iter_num, lam_1, d_num, k)
  
